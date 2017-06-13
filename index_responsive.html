@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/94a1f4533a.js"></script>
+    <!-- classic meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS styles -->
+    <link rel="stylesheet" media="screen and (max-width:749px)" type="text/css" href="style_XS.css">
+    <link rel="stylesheet" media="screen and (min-width:750px)" type="text/css" href="style_MD.css">
+    <!-- JS functions -->
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <header><!-- navigation bar -->
+      <div id="menu">
+        <div class="box1">
+            <a>Ahmed Amine Rassas</a>
+        </div>
+        <div class="box2">
+          <a class="active" href="#page-about" id="p1" onclick="navActive(p1)">About</a>
+          <a href="#page-portfolio" id="p2" onclick="navActive(p2)">Portfolio</a>
+          <a href="#page-contact" id="p3" onclick="navActive(p3)">Contact</a>
+        </div>
+      </div>
+    </header><!-- End of navigation bar -->
+    <main>
+      <div class="container">
+        <div id="page-about"><!-- Page-About -->
+            <div class="about-box1">
+              <h1>Computer Science student at Higher Institute of Applied Sciences and Technology of Sousse, Full Stack Web Development student at Free Code Camp, passionate about web development.</h1>
+            </div>
+            <div class="about-box2">
+              <img src="my-img.jpg" alt="my-photo" width="60%" height="60%">
+            </div>
+        </div><!-- End of Page-About -->
+
+        <div id="page-portfolio"><!-- Page-Portfolio -->
+          <h2 class="titre">Portfolio</h2>
+          <div class="portfolio-box">
+            <img src="placeholder1-1024x769.png" alt="work1">
+            <h5>Work N°1</h5>
+          </div>
+          <div class="portfolio-box">
+            <img src="placeholder1-1024x769.png" alt="work2">
+            <h5>Work N°2</h5>
+          </div>
+          <div class="portfolio-box">
+            <img src="placeholder1-1024x769.png" alt="work3">
+            <h5>Work N°3</h5>
+          </div>
+          <div class="portfolio-box">
+            <img src="placeholder1-1024x769.png" alt="work4">
+            <h5>Work N°4</h5>
+          </div>
+          <div class="portfolio-box">
+            <img src="placeholder1-1024x769.png" alt="work5">
+            <h5>Work N°5</h5>
+          </div>
+          <div class="portfolio-box">
+            <img src="placeholder1-1024x769.png" alt="work6">
+            <h5>Work N°6</h5>
+          </div>
+        </div><!-- End of Page-Portfolio -->
+
+        <div id="page-contact"><!-- Page-Contact -->
+          <h1 class="titre">Contact Me</h1>
+          <div class="">
+
+          </div>
+          <div class="contact-box-G1">
+            <input class="input-cool" type="text" name="name" placeholder="Name"><br>
+            <input class="input-cool" type="text" name="email" placeholder="Email Address"><br>
+            <input class="input-cool" type="text" name="phone" placeholder="Phone Number"><br>
+            <textarea class="textarea-cool" name="msg" placeholder="Message"></textarea><br>
+            <button type="button" name="button" id="btn-submit">Send</button>
+          </div>
+          <div class="contact-box-G2">
+            <h2>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume... <br>just feel free to drop me a line anytime.<br>I promise to reply A.S.A.P.</h2>
+            <hr>
+            <h2> Note: No spam please ;) </h2>
+          </div>
+        </div><!-- End of Page-Contact -->
+        <div class="" id="social"><!-- Social-->
+          <div class="social-box" id="first">
+            <h3>ABOUT THIS PAGE</h3>
+          </div>
+          <div class="social-box" id="third">
+            <h3>AROUND THE WEB</h3>
+          </div>
+          <div class="social-box" id="second">
+              <h3>Designed & Coded <br><span> by <a href="https://twitter.com/Rassas_Amine" target="_blank">Rassas Amine</a></span></h3>
+          </div>
+          <div class="social-box" id="forth">
+            <a class="btn-circle" href="https://www.linkedin.com/in/aminerassas" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="btn-circle" href="https://github.com/rassasamine" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="btn-circle" href="https://www.instagram.com/aminerassas/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div><!-- End of social -->
+        <div id="rights"><!-- Copyright -->
+          <div>
+            <h3>© 2017. All Rights Reversed</h3>
+          </div>
+        </div><!-- End Copyright -->
+      </div>
+    </main>
+  </body>
+</html>
